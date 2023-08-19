@@ -1,0 +1,4 @@
+# add .react-email and node_modules to .gitignore
+
+/.react-email
+/node_modules
