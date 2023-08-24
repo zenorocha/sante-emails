@@ -10,7 +10,7 @@ export default function Discount({ discount }: { discount: T.Summary['discount']
 				<Text style={text}>Discont</Text>
 			</Column>
 			<Column>
-				<Text style={{ ...text, ...GlobalStyles.textRight, color: 'green' }}>- ${discount}</Text>
+				<Text style={{ ...text, ...GlobalStyles.textRight, color: '#007929' }}>- ${discount}</Text>
 			</Column>
 		</Row>
 	)

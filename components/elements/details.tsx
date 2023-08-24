@@ -37,7 +37,7 @@ export default function Details({ details }: { details: T.Details }) {
 }
 
 const detailTitle = {
-	color: '#8898AA',
+	color: '#a3a3a3',
 	fontSize: 12,
 	textTransform: 'uppercase' as const,
 	lineHeight: '16px',
@@ -46,7 +46,7 @@ const detailTitle = {
 }
 
 const detailContent = {
-	color: '#525F7F',
+	color: '#333331',
 	fontSize: 15,
 	lineHeight: '24px',
 	...GlobalStyles.noMarginAndPadding,

@@ -34,13 +34,13 @@ const StripeWelcomeEmail = ({
 export default StripeWelcomeEmail
 
 const main = {
-	backgroundColor: '#F6F9FC',
+	backgroundColor: '#0f383c',
 	fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif',
 	...C.GlobalStyles.noMarginAndPadding,
 }
 
 const container = {
-	backgroundColor: '#ffffff',
+	backgroundColor: '#fffef3',
 	maxWidth: 600,
 	width: '100%',
 	margin: '84px auto 0',

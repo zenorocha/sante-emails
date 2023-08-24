@@ -8,33 +8,39 @@ export default function Header({ receipt }: { receipt: Details['receipt'] }) {
 		<>
 			<Row>
 				<Column>
-					<Img
+					{/* <Img
 						src={`https://stripe-images.s3.amazonaws.com/notifications/hosted/20180110/Header/Left.png`}
 						width='252'
 						height='156'
 						alt=''
-					/>
+					/> */}
 				</Column>
 				<Column>
 					<Img
-						src={`https://stripe-images.s3.amazonaws.com/emails/acct_1M9j6EJCIxbRCULD/3/twelve_degree_icon@2x.png`}
-						width='96'
-						height='156'
-						alt='Deep BlueDot'
+						src={`https://uploads-ssl.webflow.com/64aac3759d5b566a4d052393/64aac6ee88164330c419a58d_logo1.png`}
+						width='100'
+						height='27'
+						alt='sante logo'
+						style={{
+							marginTop: 80,
+							marginBottom: 48,
+							marginLeft: 'auto',
+							marginRight: 'auto',
+						}}
 					/>
 				</Column>
 				<Column>
-					<Img
+					{/* <Img
 						src={`https://stripe-images.s3.amazonaws.com/notifications/hosted/20180110/Header/Right.png`}
 						width='252'
 						height='156'
 						alt=''
-					/>
+					/> */}
 				</Column>
 			</Row>
 
 			<Section>
-				<Heading style={title}>Receipt from Deep BlueDot, Inc.</Heading>
+				<Heading style={title}>Receipt from Santé, Inc.</Heading>
 				<Text style={subtitle}>Receipt #{receipt}</Text>
 			</Section>
 		</>
@@ -42,14 +48,14 @@ export default function Header({ receipt }: { receipt: Details['receipt'] }) {
 }
 
 const title = {
-	color: 'rgb(50, 50, 93)',
+	color: '#0f383c',
 	fontSize: 24,
 	...GlobalStyles.noMarginAndPadding,
 	...GlobalStyles.textCenter,
 }
 
 const subtitle = {
-	color: 'rgb(136, 152, 170)',
+	color: '#a3a3a3',
 	fontSize: 15,
 	margin: '12px 0 0',
 	padding: 0,

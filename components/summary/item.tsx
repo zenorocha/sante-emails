@@ -13,7 +13,7 @@ export default function Item({ item }: { item: T.Item }) {
 			<Column>
 				<Section style={GlobalStyles.textRight}>
 					<Text style={{ ...text, color: '#525F7F' }}>$ {item.price}</Text>
-					{item.discount ? <Text style={{ ...text, color: 'green' }}>- $ {item.discount}</Text> : null}
+					{item.discount ? <Text style={{ ...text, color: '#007929' }}>- $ {item.discount}</Text> : null}
 				</Section>
 				<Text style={{ ...itemDescription, ...GlobalStyles.textRight, color: '#000' }}>x{item.quantity}</Text>
 			</Column>
@@ -31,7 +31,7 @@ const text = {
 }
 
 const itemName = {
-	color: '#687385',
+	color: '#a3a3a3',
 	fontSize: 14,
 	lineHeight: '16px',
 	fontWeight: 'bold' as const,

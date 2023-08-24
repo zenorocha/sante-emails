@@ -8,7 +8,7 @@ export default function Contact() {
 			<Hr style={{ ...GlobalStyles.borderColor, ...GlobalStyles.noMarginAndPadding }} />
 
 			<Text style={text}>
-				If you have any questions, contact us at <Link style={link}>hello@deepbluedot.io</Link> or call at{' '}
+				If you have any questions, contact us at <Link style={link}>hello@santehq.com</Link> or call at{' '}
 				<Link style={link}>+1 617-803-7355</Link>.
 			</Text>
 		</Section>

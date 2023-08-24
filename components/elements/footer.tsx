@@ -13,7 +13,7 @@ export default function Footer() {
 				</Text>
 
 				<Text style={{ ...text, marginTop: 20 }}>
-					You're receiving this email because you made a purchase at Deep BlueDot, Inc., which partners with{' '}
+					You're receiving this email because you made a purchase at Santé, Inc., which partners with{' '}
 					<Link style={link}>Stripe</Link> to provide invoicing and payment processing.
 				</Text>
 			</Section>

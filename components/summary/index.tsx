@@ -32,7 +32,7 @@ export default function Summary({ summary, address }: { summary: T.Summary; addr
 
 				<Hr style={border} />
 
-				<Text style={itemName}>Shipping:</Text>
+				<Text style={{ ...itemName, color: '#686868' }}>Shipping:</Text>
 				<Address address={address} />
 			</Section>
 		</Section>
@@ -51,13 +51,13 @@ const border = {
 
 const list = {
 	margin: '24px 0',
-	backgroundColor: '#F6F9FC',
+	backgroundColor: '#eaece2',
 	borderRadius: 8,
 	padding: '12px 21px',
 }
 
 const title = {
-	color: '#687385',
+	color: '#a3a3a3',
 	fontSize: 12,
 	textTransform: 'uppercase' as const,
 	lineHeight: '16px',
@@ -66,7 +66,7 @@ const title = {
 }
 
 const itemName = {
-	color: '#687385',
+	color: '#a3a3a3',
 	fontSize: 14,
 	lineHeight: '16px',
 	padding: 0,
